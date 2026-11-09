@@ -1,0 +1,817 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00F4F329132805579474CEAB /* Sad_Linus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D4408C74CB80FF7B51D6BACB /* Sad_Linus.jpg */; };
+		072AE703755758994AB75D8B /* 644px-Shocked_Black_Guy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA291AEBF97ED21350B9A366 /* 644px-Shocked_Black_Guy.jpg */; };
+		0AEB6071E7D43A08DD6ACA2B /* Oof_Stones.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E7B5A16DC15138B8254FF023 /* Oof_Stones.jpg */; };
+		10103DA93EB81B782923D494 /* MemeMatcherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FCE660A80AE3E6EA470EC1 /* MemeMatcherApp.swift */; };
+		12F253A7C223FE6E2194A248 /* Mike_Wazowski-Sulley_Face_Swap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 95A7037F96D7685B557FF62E /* Mike_Wazowski-Sulley_Face_Swap.jpg */; };
+		131D6CBC0E44B142B490CE28 /* ExpressionExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61703C19F98A526DA96AAA19 /* ExpressionExtractor.swift */; };
+		1611D5A241BA0664FB92B5E8 /* GestureExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4988E054B9ABCAB474E9C70B /* GestureExtractor.swift */; };
+		17B219B96CECA50D29DC6DA8 /* Unsettled_Tom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A85BAA34C1C325D653537D52 /* Unsettled_Tom.jpg */; };
+		2E0B15A41B70214DE75597DB /* CaptureStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6240E0FD998E5DAC3F861535 /* CaptureStack.swift */; };
+		364943672BBEDA3C0C47CC42 /* CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A285353B7ADAB1C31EBE05 /* CameraPreviewView.swift */; };
+		379D5B4ECD3206B86406D2FE /* Is_For_Me__HD.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC1F546148CEE86B5EE216BD /* Is_For_Me__HD.jpg */; };
+		3B32E8F3079F10AE7337B615 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65641D0BA6E8C56C6F36F67F /* KeyboardViewController.swift */; };
+		3C248893DF9407E1B8E57CA5 /* Surprised_Pikachu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE39299E3B7C2310A44DE8CC /* Surprised_Pikachu.jpg */; };
+		3DBF4C2873AEC6D26DE4E7D2 /* KeyboardLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070A22B3BD4467BAECA0C5FA /* KeyboardLayout.swift */; };
+		4F6C67B02BDA7626175C9579 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BEDCBDA98216F40179A4215 /* CameraManager.swift */; };
+		5015B47A3CD3F1BAE1C75E0E /* Pods_MemeMatcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D120AF0FBA0A95E4DB0C6798 /* Pods_MemeMatcher.framework */; };
+		5F98EBAC8BA10348AA7C2342 /* chadgirl.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 08C7D10ED8B59A28FFAC2815 /* chadgirl.jpeg */; };
+		63B69BF81F341F43DEA2B023 /* CameraScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDDC0707DADD218621363F6 /* CameraScreen.swift */; };
+		68505C6DA58D00C3936597F8 /* megamind.png in Resources */ = {isa = PBXBuildFile; fileRef = 9771F9C051E0D674B7E6D01E /* megamind.png */; };
+		69D434D764D8CDC9DF33388D /* KeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AD4164B9A11BF5EA93F200 /* KeyView.swift */; };
+		71AF2925C094A08D9020AB19 /* jarvis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 247F8AFF3A6C6D2C10572B83 /* jarvis.jpg */; };
+		75839C86DCEE2B8791751D45 /* 495px-Kevin_James_Shrugging.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 858304698BAB22A9FBD87777 /* 495px-Kevin_James_Shrugging.jpg */; };
+		797F145F521D82CDA77087F8 /* williamdafoe.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9DF85DAA6547DE843064876B /* williamdafoe.jpeg */; };
+		7EB0CCF36909F24869A227C7 /* gruGun.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 660E28A5A87FDA6D553B9299 /* gruGun.jpg */; };
+		A225A8FA76709C83EF9BB676 /* MatchEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07733896D6D602347CA98624 /* MatchEngine.swift */; };
+		A3A2F9FF9ADB1AF4A697A7B9 /* MemePack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F22A1BAC2873C73D6D7EAD6 /* MemePack.swift */; };
+		A3BD7BE0FDAC857FFC4911B4 /* Shared.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 38D9EEF0DF5A63C7F426F6BF /* Shared.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A40DCA07EE27EDEE0A589169 /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38D9EEF0DF5A63C7F426F6BF /* Shared.framework */; };
+		A77A96AE9FCB830EB712DBA6 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 40D849A39FA74DBC49A8138E /* manifest.json */; };
+		AA79468CC6FEA06C577B5886 /* gesture_recognizer.task in Resources */ = {isa = PBXBuildFile; fileRef = 24AD900B4BDD0A36334CCE73 /* gesture_recognizer.task */; };
+		AB10591819E53DED2939AAB0 /* AppGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEED354EF3D5B228381BEB0E /* AppGroup.swift */; };
+		AC0C4CA211300237A1637730 /* handonShoulderGuy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF2536B594A9A11E25DF0268 /* handonShoulderGuy.jpg */; };
+		C40AE9022D0EA299093E64ED /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309C124F91374BA372D8BDF3 /* TutorialView.swift */; };
+		C57308919AA22FE8E91B97C0 /* All_Right_Then,_Keep_Your_Secrets.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B9627A08D67860897FCE336 /* All_Right_Then,_Keep_Your_Secrets.jpg */; };
+		D154B093491A18BF0A1BFF0B /* Kowalski.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A9AD16723E7317C367A43489 /* Kowalski.jpg */; };
+		DDEE9DB58AD16F390063D835 /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38D9EEF0DF5A63C7F426F6BF /* Shared.framework */; };
+		DE027C33F69A2D0D68DE8D7C /* face_landmarker.task in Resources */ = {isa = PBXBuildFile; fileRef = F1141698498FBFEA62527472 /* face_landmarker.task */; };
+		E16D3E64A8C30570608BA109 /* guessilldie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67536501E9E6C397C578516E /* guessilldie.jpg */; };
+		E444570929AA0DEDC1D6BDF8 /* 3spiderman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 44DA5ECED8EF0FE7054AB22D /* 3spiderman.jpg */; };
+		EF2D3F886F48F48E7B953D91 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C974B5ACBFD20C7551BC2302 /* ContentView.swift */; };
+		F293F9A1586EC86973FDAFCF /* 470px-Bald_Guy_Staring.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE1AD4AE852BBE135B0E8AE8 /* 470px-Bald_Guy_Staring.jpg */; };
+		F425B0E09777B32BF05B69CD /* 8d317n.png in Resources */ = {isa = PBXBuildFile; fileRef = D4B5BC5265C5094E4A97AEDD /* 8d317n.png */; };
+		FEDF384EA02E85C0F46DA23C /* MemeKeyboard.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = CEC1F3A39C65FBAF678F2448 /* MemeKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D9424D257E64596CE170C51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E6E5546C7BF1BCB70AA8AF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F621869C2BB38A8EB5AE24E3;
+			remoteInfo = MemeKeyboard;
+		};
+		8677DD1EEC7400FCA779DE9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E6E5546C7BF1BCB70AA8AF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78EB9456EE9417402F3478C1;
+			remoteInfo = Shared;
+		};
+		DF9827730E419B02DA7840B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E6E5546C7BF1BCB70AA8AF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78EB9456EE9417402F3478C1;
+			remoteInfo = Shared;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0BAE5DF1C3FDD7057A729B8F /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FEDF384EA02E85C0F46DA23C /* MemeKeyboard.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA37A17403C5137917B7920D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A3BD7BE0FDAC857FFC4911B4 /* Shared.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		070A22B3BD4467BAECA0C5FA /* KeyboardLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardLayout.swift; sourceTree = "<group>"; };
+		07733896D6D602347CA98624 /* MatchEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchEngine.swift; sourceTree = "<group>"; };
+		08C7D10ED8B59A28FFAC2815 /* chadgirl.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chadgirl.jpeg; sourceTree = "<group>"; };
+		1914FC3375A4377697FC2BDA /* MemeMatcher.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = MemeMatcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B9627A08D67860897FCE336 /* All_Right_Then,_Keep_Your_Secrets.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "All_Right_Then,_Keep_Your_Secrets.jpg"; sourceTree = "<group>"; };
+		247F8AFF3A6C6D2C10572B83 /* jarvis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jarvis.jpg; sourceTree = "<group>"; };
+		24AD900B4BDD0A36334CCE73 /* gesture_recognizer.task */ = {isa = PBXFileReference; path = gesture_recognizer.task; sourceTree = "<group>"; };
+		291EA8C53576FE868F83F9A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2BEDCBDA98216F40179A4215 /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		309C124F91374BA372D8BDF3 /* TutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialView.swift; sourceTree = "<group>"; };
+		38D9EEF0DF5A63C7F426F6BF /* Shared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Shared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40D849A39FA74DBC49A8138E /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		43BC789F374130D170A95980 /* Pods-MemeMatcher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MemeMatcher.debug.xcconfig"; path = "Target Support Files/Pods-MemeMatcher/Pods-MemeMatcher.debug.xcconfig"; sourceTree = "<group>"; };
+		44DA5ECED8EF0FE7054AB22D /* 3spiderman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3spiderman.jpg; sourceTree = "<group>"; };
+		4988E054B9ABCAB474E9C70B /* GestureExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureExtractor.swift; sourceTree = "<group>"; };
+		61703C19F98A526DA96AAA19 /* ExpressionExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpressionExtractor.swift; sourceTree = "<group>"; };
+		6240E0FD998E5DAC3F861535 /* CaptureStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureStack.swift; sourceTree = "<group>"; };
+		65641D0BA6E8C56C6F36F67F /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		660E28A5A87FDA6D553B9299 /* gruGun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gruGun.jpg; sourceTree = "<group>"; };
+		67536501E9E6C397C578516E /* guessilldie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = guessilldie.jpg; sourceTree = "<group>"; };
+		6F2FFDA2001BAE3A4316F3BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7F22A1BAC2873C73D6D7EAD6 /* MemePack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemePack.swift; sourceTree = "<group>"; };
+		858304698BAB22A9FBD87777 /* 495px-Kevin_James_Shrugging.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "495px-Kevin_James_Shrugging.jpg"; sourceTree = "<group>"; };
+		8FDDC0707DADD218621363F6 /* CameraScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraScreen.swift; sourceTree = "<group>"; };
+		90A285353B7ADAB1C31EBE05 /* CameraPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreviewView.swift; sourceTree = "<group>"; };
+		924C0ED6A1CD9BC3BD9DDD1A /* MemeMatcher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MemeMatcher.entitlements; sourceTree = "<group>"; };
+		95A7037F96D7685B557FF62E /* Mike_Wazowski-Sulley_Face_Swap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mike_Wazowski-Sulley_Face_Swap.jpg"; sourceTree = "<group>"; };
+		9771F9C051E0D674B7E6D01E /* megamind.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = megamind.png; sourceTree = "<group>"; };
+		9DF85DAA6547DE843064876B /* williamdafoe.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = williamdafoe.jpeg; sourceTree = "<group>"; };
+		A85BAA34C1C325D653537D52 /* Unsettled_Tom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Unsettled_Tom.jpg; sourceTree = "<group>"; };
+		A9AD16723E7317C367A43489 /* Kowalski.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kowalski.jpg; sourceTree = "<group>"; };
+		AE39299E3B7C2310A44DE8CC /* Surprised_Pikachu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Surprised_Pikachu.jpg; sourceTree = "<group>"; };
+		B5AD4164B9A11BF5EA93F200 /* KeyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyView.swift; sourceTree = "<group>"; };
+		BE1AD4AE852BBE135B0E8AE8 /* 470px-Bald_Guy_Staring.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "470px-Bald_Guy_Staring.jpg"; sourceTree = "<group>"; };
+		C974B5ACBFD20C7551BC2302 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CEC1F3A39C65FBAF678F2448 /* MemeKeyboard.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = MemeKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED51353C1F83771D99FCAD5 /* MemeKeyboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MemeKeyboard.entitlements; sourceTree = "<group>"; };
+		CF2536B594A9A11E25DF0268 /* handonShoulderGuy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = handonShoulderGuy.jpg; sourceTree = "<group>"; };
+		D120AF0FBA0A95E4DB0C6798 /* Pods_MemeMatcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MemeMatcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4408C74CB80FF7B51D6BACB /* Sad_Linus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sad_Linus.jpg; sourceTree = "<group>"; };
+		D4B5BC5265C5094E4A97AEDD /* 8d317n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8d317n.png; sourceTree = "<group>"; };
+		E7B5A16DC15138B8254FF023 /* Oof_Stones.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Oof_Stones.jpg; sourceTree = "<group>"; };
+		EC1F546148CEE86B5EE216BD /* Is_For_Me__HD.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Is_For_Me__HD.jpg; sourceTree = "<group>"; };
+		F1141698498FBFEA62527472 /* face_landmarker.task */ = {isa = PBXFileReference; path = face_landmarker.task; sourceTree = "<group>"; };
+		F7A23FA09883100A16261A19 /* Pods-MemeMatcher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MemeMatcher.release.xcconfig"; path = "Target Support Files/Pods-MemeMatcher/Pods-MemeMatcher.release.xcconfig"; sourceTree = "<group>"; };
+		F8FCE660A80AE3E6EA470EC1 /* MemeMatcherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeMatcherApp.swift; sourceTree = "<group>"; };
+		FA291AEBF97ED21350B9A366 /* 644px-Shocked_Black_Guy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "644px-Shocked_Black_Guy.jpg"; sourceTree = "<group>"; };
+		FEED354EF3D5B228381BEB0E /* AppGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppGroup.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6500EBECCE56ABD1E115C160 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A40DCA07EE27EDEE0A589169 /* Shared.framework in Frameworks */,
+				5015B47A3CD3F1BAE1C75E0E /* Pods_MemeMatcher.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F07ABB3DA1887679295D7614 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDEE9DB58AD16F390063D835 /* Shared.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24FD5717D92B29940814333F /* Matching */ = {
+			isa = PBXGroup;
+			children = (
+				07733896D6D602347CA98624 /* MatchEngine.swift */,
+			);
+			path = Matching;
+			sourceTree = "<group>";
+		};
+		457C8C20236CF38DB6CA5333 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				FEED354EF3D5B228381BEB0E /* AppGroup.swift */,
+				7F22A1BAC2873C73D6D7EAD6 /* MemePack.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		4BFDEF4997A700A5F59E217A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6E23C254935EF02B2EB9E6B3 /* MemePack */,
+				F1141698498FBFEA62527472 /* face_landmarker.task */,
+				24AD900B4BDD0A36334CCE73 /* gesture_recognizer.task */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		60A9EAD29DB8CEBA5FA560A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D120AF0FBA0A95E4DB0C6798 /* Pods_MemeMatcher.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		620B2BAE06876BA60ABF2413 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43BC789F374130D170A95980 /* Pods-MemeMatcher.debug.xcconfig */,
+				F7A23FA09883100A16261A19 /* Pods-MemeMatcher.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6E23C254935EF02B2EB9E6B3 /* MemePack */ = {
+			isa = PBXGroup;
+			children = (
+				44DA5ECED8EF0FE7054AB22D /* 3spiderman.jpg */,
+				D4B5BC5265C5094E4A97AEDD /* 8d317n.png */,
+				BE1AD4AE852BBE135B0E8AE8 /* 470px-Bald_Guy_Staring.jpg */,
+				858304698BAB22A9FBD87777 /* 495px-Kevin_James_Shrugging.jpg */,
+				FA291AEBF97ED21350B9A366 /* 644px-Shocked_Black_Guy.jpg */,
+				1B9627A08D67860897FCE336 /* All_Right_Then,_Keep_Your_Secrets.jpg */,
+				08C7D10ED8B59A28FFAC2815 /* chadgirl.jpeg */,
+				660E28A5A87FDA6D553B9299 /* gruGun.jpg */,
+				67536501E9E6C397C578516E /* guessilldie.jpg */,
+				CF2536B594A9A11E25DF0268 /* handonShoulderGuy.jpg */,
+				EC1F546148CEE86B5EE216BD /* Is_For_Me__HD.jpg */,
+				247F8AFF3A6C6D2C10572B83 /* jarvis.jpg */,
+				A9AD16723E7317C367A43489 /* Kowalski.jpg */,
+				40D849A39FA74DBC49A8138E /* manifest.json */,
+				9771F9C051E0D674B7E6D01E /* megamind.png */,
+				95A7037F96D7685B557FF62E /* Mike_Wazowski-Sulley_Face_Swap.jpg */,
+				E7B5A16DC15138B8254FF023 /* Oof_Stones.jpg */,
+				D4408C74CB80FF7B51D6BACB /* Sad_Linus.jpg */,
+				AE39299E3B7C2310A44DE8CC /* Surprised_Pikachu.jpg */,
+				A85BAA34C1C325D653537D52 /* Unsettled_Tom.jpg */,
+				9DF85DAA6547DE843064876B /* williamdafoe.jpeg */,
+			);
+			path = MemePack;
+			sourceTree = "<group>";
+		};
+		8CF3F92042216FD35E6947CC = {
+			isa = PBXGroup;
+			children = (
+				E92DFC4FBBA5AD1139557164 /* App */,
+				C324EE86893C835C8C95F1BE /* Keyboard */,
+				457C8C20236CF38DB6CA5333 /* Shared */,
+				C6BB71A521A48F77144F92CC /* Products */,
+				620B2BAE06876BA60ABF2413 /* Pods */,
+				60A9EAD29DB8CEBA5FA560A8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C324EE86893C835C8C95F1BE /* Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				291EA8C53576FE868F83F9A0 /* Info.plist */,
+				070A22B3BD4467BAECA0C5FA /* KeyboardLayout.swift */,
+				65641D0BA6E8C56C6F36F67F /* KeyboardViewController.swift */,
+				B5AD4164B9A11BF5EA93F200 /* KeyView.swift */,
+				CED51353C1F83771D99FCAD5 /* MemeKeyboard.entitlements */,
+			);
+			path = Keyboard;
+			sourceTree = "<group>";
+		};
+		C6BB71A521A48F77144F92CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEC1F3A39C65FBAF678F2448 /* MemeKeyboard.appex */,
+				1914FC3375A4377697FC2BDA /* MemeMatcher.app */,
+				38D9EEF0DF5A63C7F426F6BF /* Shared.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E92DFC4FBBA5AD1139557164 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EB376366D021E985B3D0392A /* Camera */,
+				24FD5717D92B29940814333F /* Matching */,
+				4BFDEF4997A700A5F59E217A /* Resources */,
+				C974B5ACBFD20C7551BC2302 /* ContentView.swift */,
+				6F2FFDA2001BAE3A4316F3BC /* Info.plist */,
+				924C0ED6A1CD9BC3BD9DDD1A /* MemeMatcher.entitlements */,
+				F8FCE660A80AE3E6EA470EC1 /* MemeMatcherApp.swift */,
+				309C124F91374BA372D8BDF3 /* TutorialView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		EB376366D021E985B3D0392A /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				2BEDCBDA98216F40179A4215 /* CameraManager.swift */,
+				90A285353B7ADAB1C31EBE05 /* CameraPreviewView.swift */,
+				8FDDC0707DADD218621363F6 /* CameraScreen.swift */,
+				6240E0FD998E5DAC3F861535 /* CaptureStack.swift */,
+				61703C19F98A526DA96AAA19 /* ExpressionExtractor.swift */,
+				4988E054B9ABCAB474E9C70B /* GestureExtractor.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78EB9456EE9417402F3478C1 /* Shared */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EF8BFBF11819AEC7CD891B2 /* Build configuration list for PBXNativeTarget "Shared" */;
+			buildPhases = (
+				9E26DAF146830902C733203C /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shared;
+			productName = Shared;
+			productReference = 38D9EEF0DF5A63C7F426F6BF /* Shared.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		94B1A36ADBE0E626A87A92F6 /* MemeMatcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F71635744C205C9A8FDF37D /* Build configuration list for PBXNativeTarget "MemeMatcher" */;
+			buildPhases = (
+				070BE2C04BB6FAA88A0442CC /* [CP] Check Pods Manifest.lock */,
+				B94C0F8078A943EE6369E3DF /* Sources */,
+				BC8F0E8F249C390611DDD803 /* Resources */,
+				6500EBECCE56ABD1E115C160 /* Frameworks */,
+				0BAE5DF1C3FDD7057A729B8F /* Embed Foundation Extensions */,
+				DA37A17403C5137917B7920D /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFCDBAFDD5E7D68158F30708 /* PBXTargetDependency */,
+				A5227B7706B4F930CDFBB1CE /* PBXTargetDependency */,
+			);
+			name = MemeMatcher;
+			productName = MemeMatcher;
+			productReference = 1914FC3375A4377697FC2BDA /* MemeMatcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F621869C2BB38A8EB5AE24E3 /* MemeKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 944D15FD943E4A68A7D55046 /* Build configuration list for PBXNativeTarget "MemeKeyboard" */;
+			buildPhases = (
+				B2681C6F5C9657F514444F04 /* Sources */,
+				F07ABB3DA1887679295D7614 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F5B8791315E84CDD914E9AA /* PBXTargetDependency */,
+			);
+			name = MemeKeyboard;
+			productName = MemeKeyboard;
+			productReference = CEC1F3A39C65FBAF678F2448 /* MemeKeyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E6E5546C7BF1BCB70AA8AF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					78EB9456EE9417402F3478C1 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					94B1A36ADBE0E626A87A92F6 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					F621869C2BB38A8EB5AE24E3 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 80B4DD17DCEBA85BCA83EDA6 /* Build configuration list for PBXProject "MemeMatcher" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 8CF3F92042216FD35E6947CC;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C6BB71A521A48F77144F92CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94B1A36ADBE0E626A87A92F6 /* MemeMatcher */,
+				F621869C2BB38A8EB5AE24E3 /* MemeKeyboard */,
+				78EB9456EE9417402F3478C1 /* Shared */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC8F0E8F249C390611DDD803 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E444570929AA0DEDC1D6BDF8 /* 3spiderman.jpg in Resources */,
+				F293F9A1586EC86973FDAFCF /* 470px-Bald_Guy_Staring.jpg in Resources */,
+				75839C86DCEE2B8791751D45 /* 495px-Kevin_James_Shrugging.jpg in Resources */,
+				072AE703755758994AB75D8B /* 644px-Shocked_Black_Guy.jpg in Resources */,
+				F425B0E09777B32BF05B69CD /* 8d317n.png in Resources */,
+				C57308919AA22FE8E91B97C0 /* All_Right_Then,_Keep_Your_Secrets.jpg in Resources */,
+				379D5B4ECD3206B86406D2FE /* Is_For_Me__HD.jpg in Resources */,
+				D154B093491A18BF0A1BFF0B /* Kowalski.jpg in Resources */,
+				12F253A7C223FE6E2194A248 /* Mike_Wazowski-Sulley_Face_Swap.jpg in Resources */,
+				0AEB6071E7D43A08DD6ACA2B /* Oof_Stones.jpg in Resources */,
+				00F4F329132805579474CEAB /* Sad_Linus.jpg in Resources */,
+				3C248893DF9407E1B8E57CA5 /* Surprised_Pikachu.jpg in Resources */,
+				17B219B96CECA50D29DC6DA8 /* Unsettled_Tom.jpg in Resources */,
+				5F98EBAC8BA10348AA7C2342 /* chadgirl.jpeg in Resources */,
+				DE027C33F69A2D0D68DE8D7C /* face_landmarker.task in Resources */,
+				AA79468CC6FEA06C577B5886 /* gesture_recognizer.task in Resources */,
+				7EB0CCF36909F24869A227C7 /* gruGun.jpg in Resources */,
+				E16D3E64A8C30570608BA109 /* guessilldie.jpg in Resources */,
+				AC0C4CA211300237A1637730 /* handonShoulderGuy.jpg in Resources */,
+				71AF2925C094A08D9020AB19 /* jarvis.jpg in Resources */,
+				A77A96AE9FCB830EB712DBA6 /* manifest.json in Resources */,
+				68505C6DA58D00C3936597F8 /* megamind.png in Resources */,
+				797F145F521D82CDA77087F8 /* williamdafoe.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		070BE2C04BB6FAA88A0442CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MemeMatcher-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E26DAF146830902C733203C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB10591819E53DED2939AAB0 /* AppGroup.swift in Sources */,
+				A3A2F9FF9ADB1AF4A697A7B9 /* MemePack.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2681C6F5C9657F514444F04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69D434D764D8CDC9DF33388D /* KeyView.swift in Sources */,
+				3DBF4C2873AEC6D26DE4E7D2 /* KeyboardLayout.swift in Sources */,
+				3B32E8F3079F10AE7337B615 /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B94C0F8078A943EE6369E3DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F6C67B02BDA7626175C9579 /* CameraManager.swift in Sources */,
+				364943672BBEDA3C0C47CC42 /* CameraPreviewView.swift in Sources */,
+				63B69BF81F341F43DEA2B023 /* CameraScreen.swift in Sources */,
+				2E0B15A41B70214DE75597DB /* CaptureStack.swift in Sources */,
+				EF2D3F886F48F48E7B953D91 /* ContentView.swift in Sources */,
+				131D6CBC0E44B142B490CE28 /* ExpressionExtractor.swift in Sources */,
+				1611D5A241BA0664FB92B5E8 /* GestureExtractor.swift in Sources */,
+				A225A8FA76709C83EF9BB676 /* MatchEngine.swift in Sources */,
+				10103DA93EB81B782923D494 /* MemeMatcherApp.swift in Sources */,
+				C40AE9022D0EA299093E64ED /* TutorialView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F5B8791315E84CDD914E9AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78EB9456EE9417402F3478C1 /* Shared */;
+			targetProxy = DF9827730E419B02DA7840B2 /* PBXContainerItemProxy */;
+		};
+		A5227B7706B4F930CDFBB1CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F621869C2BB38A8EB5AE24E3 /* MemeKeyboard */;
+			targetProxy = 1D9424D257E64596CE170C51 /* PBXContainerItemProxy */;
+		};
+		CFCDBAFDD5E7D68158F30708 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78EB9456EE9417402F3478C1 /* Shared */;
+			targetProxy = 8677DD1EEC7400FCA779DE9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01463984BCA265F7F2E92F87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		308EB2672C35B773D5951280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B5F4FC95DB4FDEFA30B063E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43BC789F374130D170A95980 /* Pods-MemeMatcher.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = App/MemeMatcher.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leventemurgas.MemeMatcher;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62815296E04B0564C75148DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7A23FA09883100A16261A19 /* Pods-MemeMatcher.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = App/MemeMatcher.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leventemurgas.MemeMatcher;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6728477A606494913F3AACB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leventemurgas.MemeMatcher.Shared;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		DF80BE4E17719FA945FB496B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Keyboard/MemeKeyboard.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Keyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leventemurgas.MemeMatcher.Keyboard;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F6F78AC3E157D3E84FDB4EEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leventemurgas.MemeMatcher.Shared;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		FFA781FDB52D24D70CD485FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Keyboard/MemeKeyboard.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Keyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leventemurgas.MemeMatcher.Keyboard;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F71635744C205C9A8FDF37D /* Build configuration list for PBXNativeTarget "MemeMatcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B5F4FC95DB4FDEFA30B063E /* Debug */,
+				62815296E04B0564C75148DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		80B4DD17DCEBA85BCA83EDA6 /* Build configuration list for PBXProject "MemeMatcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				308EB2672C35B773D5951280 /* Debug */,
+				01463984BCA265F7F2E92F87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		944D15FD943E4A68A7D55046 /* Build configuration list for PBXNativeTarget "MemeKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFA781FDB52D24D70CD485FF /* Debug */,
+				DF80BE4E17719FA945FB496B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9EF8BFBF11819AEC7CD891B2 /* Build configuration list for PBXNativeTarget "Shared" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6728477A606494913F3AACB5 /* Debug */,
+				F6F78AC3E157D3E84FDB4EEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E6E5546C7BF1BCB70AA8AF0 /* Project object */;
+}

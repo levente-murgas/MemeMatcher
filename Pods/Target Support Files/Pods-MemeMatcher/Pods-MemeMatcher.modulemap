@@ -1,0 +1,6 @@
+framework module Pods_MemeMatcher {
+  umbrella header "Pods-MemeMatcher-umbrella.h"
+
+  export *
+  module * { export * }
+}

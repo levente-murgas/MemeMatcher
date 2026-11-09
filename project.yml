@@ -1,0 +1,84 @@
+# IMPORTANT: after every `xcodegen generate`, run `pod install` — CocoaPods
+# patches the generated .xcodeproj (MediaPipe), and regeneration wipes that.
+# Open/build MemeMatcher.xcworkspace, not the .xcodeproj.
+name: MemeMatcher
+options:
+  bundleIdPrefix: com.leventemurgas
+  deploymentTarget:
+    iOS: "17.0"
+  createIntermediateGroups: true
+  groupSortPosition: top
+
+settings:
+  base:
+    MARKETING_VERSION: "0.1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    SWIFT_VERSION: "5.0"
+    DEVELOPMENT_TEAM: ""
+    CODE_SIGN_STYLE: Automatic
+    TARGETED_DEVICE_FAMILY: "1,2"
+
+# Explicit shared scheme (written into the .xcodeproj, not auto-created by
+# Xcode) so "MemeMatcher" always appears in the scheme dropdown. This is the
+# only scheme you ever need to run — it builds and embeds the keyboard too.
+schemes:
+  MemeMatcher:
+    build:
+      targets:
+        MemeMatcher: all
+    run:
+      config: Debug
+    archive:
+      config: Release
+
+targets:
+  # ── Main app: SwiftUI, has camera/ML later; owns the App Group hand-off ──
+  MemeMatcher:
+    type: application
+    platform: iOS
+    sources:
+      - path: App
+        excludes:
+          - "Resources/**"
+      # Bundled ML models & assets (e.g. face_landmarker.task for MediaPipe).
+      - path: App/Resources
+        buildPhase: resources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.leventemurgas.MemeMatcher
+        INFOPLIST_FILE: App/Info.plist
+        CODE_SIGN_ENTITLEMENTS: App/MemeMatcher.entitlements
+        GENERATE_INFOPLIST_FILE: "NO"
+    dependencies:
+      - target: Shared
+        embed: true
+      - target: MemeKeyboard
+        embed: true
+
+  # ── Keyboard extension: UIKit UIInputViewController ──
+  MemeKeyboard:
+    type: app-extension
+    platform: iOS
+    sources:
+      - Keyboard
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.leventemurgas.MemeMatcher.Keyboard
+        INFOPLIST_FILE: Keyboard/Info.plist
+        CODE_SIGN_ENTITLEMENTS: Keyboard/MemeKeyboard.entitlements
+        GENERATE_INFOPLIST_FILE: "NO"
+    dependencies:
+      # Link only — the containing app embeds the framework.
+      - target: Shared
+        embed: false
+
+  # ── Shared framework: App Group paths + shared logic reused by both ──
+  Shared:
+    type: framework
+    platform: iOS
+    sources:
+      - Shared
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.leventemurgas.MemeMatcher.Shared
+        GENERATE_INFOPLIST_FILE: "YES"
